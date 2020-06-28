@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns="urn:schemas-microsoft-com:asm.v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <assemblyIdentity name="AutoScan.exe" version="1.0.0.0" processorArchitecture="x86" type="win32" />
+  <file name="wiaaut.dll" asmv2:size="571904">
+    <hash xmlns="urn:schemas-microsoft-com:asm.v2">
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>nVlXAugZKt8/RwE71i9fQZgzfVI=</dsig:DigestValue>
+    </hash>
+    <typelib tlbid="{94a0e92d-43c0-494e-ac29-fd45948a5221}" version="1.0" helpdir="" resourceid="0" flags="HASDISKIMAGE" />
+    <comClass clsid="{0c5672f9-3edc-4b24-95b5-a6c54c0b79ad}" threadingModel="Apartment" tlbid="{94a0e92d-43c0-494e-ac29-fd45948a5221}" progid="WIA.Rational.1" description="The Rational object is a container for the rational values found in Exif tags. It is a supported element type of the Vector object and may be created using &quot;WIA.Rational&quot; in a call to CreateObject." />
+    <comClass clsid="{4dd1d1c3-b36a-4eb4-aaef-815891a58a30}" threadingModel="Apartment" tlbid="{94a0e92d-43c0-494e-ac29-fd45948a5221}" progid="WIA.Vector.1" description="The Vector object is a collection of values of the same type. It is used throughout the library in many different ways. The Vector object may be created using &quot;WIA.Vector&quot; in a call to CreateObject." />
+    <comClass clsid="{a2e6dda0-06ef-4df3-b7bd-5aa224bb06e8}" threadingModel="Apartment" tlbid="{94a0e92d-43c0-494e-ac29-fd45948a5221}" progid="WIA.ImageFile.1" description="The ImageFile object is a container for images transferred to your computer when you call Transfer or ShowTransfer. It also supports image files through LoadFile. An ImageFile object can be created using &quot;WIA.ImageFile&quot; in a call to CreateObject." />
+    <comClass clsid="{bd0d38e4-74c8-4904-9b5a-269f8e9994e9}" threadingModel="Apartment" tlbid="{94a0e92d-43c0-494e-ac29-fd45948a5221}" progid="WIA.ImageProcess.1" description="The ImageProcess object manages the filter chain. An ImageProcess object can be created using &quot;WIA.ImageProcess&quot; in a call to CreateObject." />
+    <comClass clsid="{850d1d11-70f3-4be5-9a11-77aa6b2bb201}" threadingModel="Apartment" tlbid="{94a0e92d-43c0-494e-ac29-fd45948a5221}" progid="WIA.CommonDialog.1" description="The CommonDialog control is an invisible-at-runtime control that contains all the methods that display a User Interface. A CommonDialog control can be created using &quot;WIA.CommonDialog&quot; in a call to CreateObject or by dropping a CommonDialog on a form." />
+    <comClass clsid="{e1c5d730-7e97-4d8a-9e42-bbae87c2059f}" threadingModel="Apartment" tlbid="{94a0e92d-43c0-494e-ac29-fd45948a5221}" progid="WIA.DeviceManager.1" description="The DeviceManager control is an invisible-at-runtime control that manages the imaging devices connected to the computer. A DeviceManager control can be created using &quot;WIA.DeviceManager&quot; in a call to CreateObject or by dropping a DeviceManager on a form." />
+  </file>
+</assembly>
